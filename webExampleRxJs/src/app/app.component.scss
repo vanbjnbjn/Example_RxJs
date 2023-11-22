@@ -1,0 +1,35 @@
+.header
+  {
+    color: #c2185b;
+    text-align: center;
+    .title
+    {
+        font-size: 36pt;
+        font-weight: 700;
+    }
+    .logo
+    {
+        display: flex;
+        min-width: 100vw;
+        img
+        {
+            max-width: 80px;
+            max-height: 80px;
+        }
+        .angular
+        {
+            margin: auto;
+            margin-right: 0;
+        }
+        .rxjs
+        {
+            img
+            {
+                max-width: 60px;
+                max-height: 60px;
+            }
+            margin: auto;
+            margin-left: 0;
+        }
+    }
+  }
