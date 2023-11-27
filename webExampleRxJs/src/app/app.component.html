@@ -1,21 +1,22 @@
 <div class="header">
   <span class="title">RxJs with Angular</span>
   <div class="logo">
-    <div class="angular">
-      <img src="../assets/angular.png"/>
-    </div>
-    <div class="rxjs">
-      <img src="../assets/rxjs1.png"/>
+    <div style="margin: auto;">
+      <img src="../assets/rxjs-angular.png"/>
     </div>
   </div>
 </div>
-<div class="body">
+<div class="content-container">
   <div class="left-menu">
     <app-menu></app-menu>
   </div>
   <div class="content">
-    
+    <mat-tab-group>
+      <mat-tab label="First"> Content 1 </mat-tab>
+      <mat-tab label="Second"> Content 2 </mat-tab>
+      <mat-tab label="Third"> Content 3 </mat-tab>
+    </mat-tab-group>
     <router-outlet></router-outlet>
-    <embed src="https://stackblitz.com/edit/stackblitz-starters-ehlva1?file=src%2Fmain.ts">
+   <!-- <embed width="100%" height="100%" src="https://stackblitz.com/edit/bbzq22?file=index.ts"> -->
   </div>
 </div>

@@ -1,0 +1,38 @@
+.menu-container
+{
+
+    .mat-list-item
+    {
+        &:hover
+        {
+            background-color: rgba(203, 203, 203, 0.631);
+        }
+    }
+    .menu-selected
+    {
+        .mat-expansion-panel-header-title, .mat-list-item-content
+        {
+            color: #d81b60;
+        }
+    }
+    .mat-accordion .mat-expansion-panel
+    {
+        border-radius: 0 !important;
+    }
+
+    .mat-expansion-panel
+    {
+        box-shadow: none;
+        border: 1px solid #bebebe;
+        border-right: none;
+        border-top: none;
+    }
+    .mat-expansion-panel-header
+    {
+        transition: none;
+    }
+    .mat-expansion-panel-header.mat-expanded
+    {
+        max-height: 48px;
+    }
+}
